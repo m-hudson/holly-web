@@ -1,0 +1,144 @@
+/**
+CSS MAIN
+**/
+
+/**
+header
+**/
+
+body, html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+.big_img1 {
+	/* Image Used */
+	background-image: url("../img/holly1.jpg");
+	
+	/* Full Height */
+	min-height: 100%;
+	position: relative;
+
+	opacity: 0.65;
+
+	/* Create the parallax scrolling effect */
+	background-size:cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+}
+
+.big_img2 {
+	/* Image Used */
+	background-image: url("../img/holly2.jpg");
+	
+	/* Full Height */
+	min-height: 20%;
+	position: relative;
+
+	opacity: 0.65;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+}
+
+.big_img3 {
+	/* Image Used */
+	background-image: url("../img/holly3.jpg");
+	
+	/* Full Height */
+	min-height: 50%;
+	position: relative;
+
+	opacity: 0.65;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+}
+
+.caption1 {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption1 span.title {
+	background-color: pink;
+	color: black;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+.block_text {
+	color: black;
+	background-color: white;
+	text-align: center;
+	padding: auto;
+	text-align: justify;
+	opacity: 0.65;
+	width: 80%;
+	position: center;
+	margin: auto;
+}
+
+.block_text h3 {
+	text-align: center;
+}
+
+.caption2 {
+	position: relative;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.caption2 .program {
+	background-color: pink;
+	position: relative;
+	display: inline-grid;
+	margin: 20px;
+	height: 200px;
+	width: 200px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+nav {
+	text-align: center;
+	padding: 0 0 0 0;
+ 	margin: 0 0 0 0;
+	opacity: 0.65;
+	background-color: #fff;
+	position: relative;
+	background-attachment: fixed;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	font-family: 'Poiret One', cursive;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: black;
+}

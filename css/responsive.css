@@ -1,0 +1,45 @@
+/**********************
+IPAD size (two column layout)
+**********************/
+
+@media screen and (min-width: 480px) {
+	
+	.big_img1, .big_img2, .big_img3 {
+		background-size: 90%;
+	}
+
+	.block_text {
+		width: 90%;
+	}
+	
+}
+
+/**********************
+small PC size
+**********************/
+
+@media screen and (min-width: 660px) {
+	
+	.big_img1, .big_img2, .big_img3 {
+		background-size: 100%;
+	}
+	
+}
+
+/**********************
+large PC size
+**********************/
+
+@media screen and (min-width: 1000px) {
+	
+	.big_img1, .big_img2, .big_img3 {
+		background-size: 50%;
+	}
+
+	.block_text {
+		width: 50%;
+	}
+
+
+	
+}
