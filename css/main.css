@@ -13,8 +13,8 @@ body, html {
 
 .big_img1 {
 	/* Image Used */
-	background-image: url("../img/holly1.jpg");
-	
+	background-image: url("../img/example.jpg");
+
 	/* Full Height */
 	min-height: 100%;
 	position: relative;
@@ -22,41 +22,7 @@ body, html {
 	opacity: 0.65;
 
 	/* Create the parallax scrolling effect */
-	background-size:cover;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 80%;
-}
-
-.big_img2 {
-	/* Image Used */
-	background-image: url("../img/holly2.jpg");
-	
-	/* Full Height */
-	min-height: 20%;
-	position: relative;
-
-	opacity: 0.65;
-
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 80%;
-}
-
-.big_img3 {
-	/* Image Used */
-	background-image: url("../img/holly3.jpg");
-	
-	/* Full Height */
-	min-height: 50%;
-	position: relative;
-
-	opacity: 0.65;
-
-	/* Create the parallax scrolling effect */
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -83,17 +49,28 @@ body, html {
 .block_text {
 	color: black;
 	background-color: white;
-	text-align: center;
-	padding: auto;
+	text-align: left;
+	padding: none;
 	text-align: justify;
 	opacity: 0.65;
-	width: 80%;
-	position: center;
-	margin: auto;
+	width: 40%;
+	position: left;
+	margin: 0 0 0 5%;
+}
+
+.small-pic {
+	background-image: url("../img/holly1.jpg");
+	position: right;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	margin: 0 5% 0 0;
+	width: 40%;
 }
 
 .block_text h3 {
-	text-align: center;
+	text-align: left;
 }
 
 .caption2 {
